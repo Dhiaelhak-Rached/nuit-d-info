@@ -1,0 +1,364 @@
+
+{
+    "intents": [
+    
+          {  
+            "tag": "Sexuality Questions",
+            "context": "They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based.",
+         
+                "patterns": "What are methods without scientific evidence or myths?",
+                "answers": [
+                  {
+                    "text": "They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."
+                  }
+                ]
+            
+          },
+          {
+            "context": "They are methods that help prevent pregnancy through elements foreign to the body and are divided into temporary modern methods and definitive modern methods. As their names indicate, temporary methods can be stopped at any time and fertility will return if the woman wishes to become pregnant. The definitive modern methods are surgical procedures that will prevent a man and a woman from having children again for life.",
+            "qas": [
+              {
+                "patterns": "What are modern methods?",
+                "answers": [
+                  {
+                    "text": "They are methods that help prevent pregnancy through elements foreign to the body and are divided into temporary modern methods and definitive modern methods. As their names indicate, temporary methods can be stopped at any time and fertility will return if the woman wishes to become pregnant. The definitive modern methods are surgical procedures that will prevent a man and a woman from having children again for life."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "No, none of these substances have contraceptive effects to prevent pregnancy, therefore this idea is only part of people's imagination and some popular false beliefs. What really works is the proper use of methods modern contraceptives or abstention.",
+            "qas": [
+              {
+                "patterns": "Is it true that drinking Coca Cola with Alka Seltzer before sexual intercourse prevents pregnancy?",
+                "answers": [
+                  {
+                    "text": "No, none of these substances have contraceptive effects to prevent pregnancy, therefore this idea is only part of people's imagination and some popular false beliefs. What really works is the proper use of methods modern contraceptives or abstention."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "This is a widespread misconception and is used as an excuse not to use a condom. Pleasure during intercourse depends on sexual desire, attraction to the other person, the relationship, games erotic, to reduce the risks of pregnancy and infections and if the decision was made autonomously.To avoid these false beliefs in the market there are condoms of flavors, textures and colors, which contribute to stimulation at the time of sexual intercourse .",
+            "qas": [
+              {
+                "patterns": "Why do some people say that “with a condom it doesn't feel the same” when having sex?",
+                "answers": [
+                  {
+                    "text": "This is a widespread misconception and is used as an excuse not to use a condom. Pleasure during intercourse depends on sexual desire, attraction to the other person, the relationship, games erotic, to reduce the risks of pregnancy and infections and if the decision was made autonomously.To avoid these false beliefs in the market there are condoms of flavors, textures and colors, which contribute to stimulation at the time of sexual intercourse ."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "No, as their name indicates, they are emergency contraceptive pills that have several ways of acting: They increase and thicken the mucus or discharge from the cervix or cervix, preventing mobility and the passage of sperm to the uterus They inhibit or accelerate the ovulation process so that fertilization does not occur.",
+            "qas": [
+              {
+                "patterns": "",
+                "answers": [
+                  {
+                    "text": "No, as their name indicates, they are emergency contraceptive pills that have several ways of acting: They increase and thicken the mucus or discharge from the cervix or cervix, preventing mobility and the passage of sperm to the uterus They inhibit or accelerate the ovulation process so that fertilization does not occur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "No, the use of contraceptives has nothing to do with reproductive disorders or fertility problems, they prevent pregnancy as long as the person uses them correctly, when they are stopped, fertility returns. What happens is that many people use contraceptives without knowing their reproductive possibilities or if they have any alteration; when they stop using the method to get pregnant, they realize that they have difficulties, but not because of the contraceptive, but because they existed previously.",
+            "qas": [
+              {
+                "patterns": "Can the use of temporary contraception cause infertility?",
+                "answers": [
+                  {
+                    "text": "No, the use of contraceptives has nothing to do with reproductive disorders or fertility problems, they prevent pregnancy as long as the person uses them correctly, when they are stopped, fertility returns. What happens is that many people use contraceptives without knowing their reproductive possibilities or if they have any alteration; when they stop using the method to get pregnant, they realize that they have difficulties, but not because of the contraceptive, but because they existed previously."
+                  }
+                ]
+              }
+            ]
+          },    {
+            "context": "A la edad que lo considere necesario y oportuno. Hombres y  mujeres de cualquier edad tienen derecho a estar informados  y acceder a los métodos anticonceptivos, lo importante es que  la persona conozca el funcionamiento del método, la forma de  uso y si produce efectos secundarios.",
+            "qas": [
+              {
+                "patterns": "¿A qué edad una persona puede empezar a utilizar métodos  anticonceptivos?",
+                "answers": [
+                  {
+                    "text": "A la edad que lo considere necesario y oportuno. Hombres y  mujeres de cualquier edad tienen derecho a estar informados  y acceder a los métodos anticonceptivos, lo importante es que  la persona conozca el funcionamiento del método, la forma de  uso y si produce efectos secundarios."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "No, el condón debe usarse siempre, en todas las relaciones  sexuales porque es el único método que puede prevenir las  Infecciones de Transmisión Sexual (ITS) incluido el VIH/Sida.",
+            "qas": [
+              {
+                "patterns": "¿Se debe usar el condón sólo si hay riesgo de embarazo?",
+                "answers": [
+                  {
+                    "text": "No, el condón debe usarse siempre, en todas las relaciones  sexuales porque es el único método que puede prevenir las  Infecciones de Transmisión Sexual (ITS) incluido el VIH/Sida."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "From the moment she has her first ovulation, which occurs before her first period. Therefore, if a woman has unprotected intercourse, even without her first period, she can get pregnant." ,
+            "qas": [
+              {
+                "patterns": "At what age can a woman get pregnant?",
+                "answers": [
+                  {
+                    "text": "From the moment she has her first ovulation, which occurs before her first period. Therefore, if a woman has unprotected intercourse, even without her first period, she can get pregnant."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Yes, there is a possibility of pregnancy because even if the ejaculate has stayed at the entrance of the vagina, some sperm can reach the egg.",
+            "qas": [
+              {
+                "patterns": "If a man ejaculates at the entrance of the vagina, can a woman get pregnant?",
+                "answers": [
+                  {
+                    "text": "Yes, there is a possibility of pregnancy because even if the ejaculate has stayed at the entrance of the vagina, some sperm can reach the egg."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "Yes, even if it is the first sexual intercourse when it is practiced during the fertile days or ovulation and a contraceptive method is not used, the woman can get pregnant.",
+            "qas": [
+              {
+                "patterns": "Can you get pregnant with the first sexual intercourse?",
+                "answers": [
+                  {
+                    "text": "Yes, even if it is the first sexual intercourse when it is practiced during the fertile days or ovulation and a contraceptive method is not used, the woman can get pregnant."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "From the menarche (first menstruation) the cycles can be irregular for several months, presenting frequent delays, which is given by the immaturity of the body. This can be considered normal. Other causes of delays can be the lack of ovulation, delayed ovulation, stress, climate change, special emotional situations, fear of pregnancy and pregnancy, etc. Most of the causes are easily detectable and treatable.",
+            "qas": [
+              {
+                "patterns": "Why is my period late?",
+                "answers": [
+                  {
+                    "text": "From the menarche (first menstruation) the cycles can be irregular for several months, presenting frequent delays, which is given by the immaturity of the body. This can be considered normal. Other causes of delays can be the lack of ovulation, delayed ovulation, stress, climate change, special emotional situations, fear of pregnancy and pregnancy, etc. Most of the causes are easily detectable and treatable."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "It is an imaginary pregnancy and can occur in women who intensely want a pregnancy. These women present all the subjective symptoms of pregnancy, associated with a considerable increase in abdominal volume, enlargement of the breasts, appearance of discharge by the nipples and general discomfort. A pregnancy test can confirm the diagnosis and go to treatment to solve this emotional disturbance that leads to developing a psychological pregnancy.",
+            "qas": [
+              {
+                "patterns": "What is a psychological pregnancy?",
+                "answers": [
+                  {
+                    "text": "It is an imaginary pregnancy and can occur in women who intensely want a pregnancy. These women present all the subjective symptoms of pregnancy, associated with a considerable increase in abdominal volume, enlargement of the breasts, appearance of discharge by the nipples and general malaise. Through a pregnancy test, the diagnosis can be confirmed and treatment can be sought to solve this emotional disturbance that leads to the development of a psychological pregnancy."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "Yes, pregnancy in adolescents is considered high risk and alterations or diseases such as hypertension, anemia, nutritional complications, low birth weight of the fetus at birth, premature birth and complications during childbirth are more frequent in them. When the mother is an adolescent, it is more common for the newborn to get sick or die during the first year of life.",
+            "qas": [
+              {
+                "patterns": "Is giving birth to a woman under the age of 16 dangerous?",
+                "answers": [
+                  {
+                    "text": "Yes, pregnancy in adolescents is considered high risk and alterations or diseases such as hypertension, anemia, nutritional complications, low birth weight of the fetus at birth, premature birth and complications during childbirth are more frequent in them. When the mother is an adolescent, it is more common for the newborn to become ill or die during the first year of life."
+                  }
+                ]
+              }
+            ]
+          },{
+            "context": "The responsibility belongs to both because it is a situation that is part of the life project of each one. It must be taken into account that the protection belongs to both.",
+            "qas": [
+              {
+                "patterns": "Whose responsibility is it to prevent a pregnancy, the man or the woman?",
+                "answers": [
+                  {
+                    "text": "The responsibility belongs to both because it is a situation that is part of the life project of each one. It must be taken into account that the protection belongs to both."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "context": "Also called erotic dreams, they are sensations of arousal during sleep. They occur in both men and women. In the case of men, they can cause an ejaculation. In women, an increase in lubrication in the vagina. They do not have nothing to do with fidelity to the partner, nor with the beliefs or values ​​of the person, since they are involuntary and unconscious.",
+            "qas": [
+              {
+                "patterns": "What are wet dreams?",
+                "answers": [
+                  {
+                    "text": "Also called erotic dreams, they are sensations of arousal during sleep. They occur in both men and women. In the case of men, they can cause an ejaculation. In women, an increase in lubrication in the vagina. They do not have nothing to do with fidelity to the couple, nor with the beliefs or values ​​of the person, since they are involuntary and unconscious."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+                    "context": "Semen appears during puberty between approximately 11 and 13 years of age. It is a fluid that contains sperm and is expelled from the penis during ejaculation.",
+                    "qas": [
+                      {
+                        "patterns": "At what age does semen appear?",
+                        "answers": [
+                          {
+                            "text": "Semen appears during puberty between approximately 11 and 13 years of age. It is a fluid that contains spermatozoa and is expelled from the penis during ejaculation."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "context": "The size of the penis in a flaccid relaxed state ranges from three to ten centimeters. The size of the penis in an erect state can be between 12 and 17 centimeters. It is important to note that when the penis is erect it can bend or triple its size, although this depends on the race and the physical structure of the man.",
+                    "qas": [
+                      {
+                        "patterns": "What is the normal size of the penis?",
+                        "answers": [
+                          {
+                            "text": "The size of the penis in a flaccid relaxed state ranges from three to four inches. The size of the penis in an erect state can be between 12 and 17 centimeters. It is important to note that when the penis is erect it can bend or triple its size, although this depends on the race and the physical structure of the man."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "This is one of the myths that accompanies many men and women. Neither the size of the penis, nor the shape of the penis, nor penetration are the most important or the most pleasurable thing about sexual intercourse." ,
+                    "qas": [
+                      {
+                        "patterns": "Is the size of the penis important to give pleasure to the partner?",
+                        "answers": [
+                          {
+                            "text": "This is one of the myths that accompanies many men and women. Neither the size of the penis, nor the shape of the penis, nor penetration are the most important or the most pleasurable thing about sexual intercourse."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "Very sensitive sexual organ in women, located in the vulva. The clitoris in women is the equivalent of the penis in men, which when stimulated increases in volume and produces sexual pleasure because it has many nerve endings The stimulation of the clitoris must be accompanied by the sexual desire, the disposition and the will of the woman so that sexual activity is pleasant and pleasurable.",
+                    "qas": [
+                      {
+                        "patterns": "What is the clitoris?",
+                        "answers": [
+                          {
+                            "text": "Very sensitive sexual organ in women, located in the vulva. The clitoris in women is the equivalent of the penis in men, which when stimulated increases in volume and produces sexual pleasure because it has many nerve endings The stimulation of the clitoris must be accompanied by the sexual desire, the disposition and the will of the woman so that the sexual activity is pleasant and pleasant."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "Es el tiempo de duración entre una menstruación y otra,  contando desde el primer día de sangrado menstrual hasta el  primer día de la siguiente menstruación. Por ejemplo, si a una  mujer le llegó la menstruación el día cinco de junio (primer día  de ciclo menstrual) y volvió a menstruar el 30 de junio, puede  decirse que su ciclo fue de 26 días. El ciclo menstrual es  variable de una mujer a otra y tiene días de más alto riesgo de  embarazo.",
+                    "qas": [
+                      {
+                        "patterns": "¿Qué es un ciclo menstrual?",
+                        "answers": [
+                          {
+                            "text": "Es el tiempo de duración entre una menstruación y otra,  contando desde el primer día de sangrado menstrual hasta el  primer día de la siguiente menstruación. Por ejemplo, si a una  mujer le llegó la menstruación el día cinco de junio (primer día  de ciclo menstrual) y volvió a menstruar el 30 de junio, puede  decirse que su ciclo fue de 26 días. El ciclo menstrual es  variable de una mujer a otra y tiene días de más alto riesgo de  embarazo."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "It is the personal stimulation of the genitals to obtain arousal and sexual pleasure. Since pleasure is a right of all people, masturbation is not an exclusive practice for men, women also do it.",
+                    "qas": [
+                      {
+                        "patterns": "What is masturbation?",
+                        "answers": [
+                          {
+                            "text": "It is the personal stimulation of the genitals to obtain arousal and sexual pleasure. Since pleasure is a right of all people, masturbation is not an exclusive practice for men, women also do it."
+                          }
+                        ]
+                      }
+                    ]
+                  },  {
+                    "context": "No, todas esas son ideas que se han difundido para crear  miedo hacia la masturbación y por lo tanto son falsas. La  masturbación no influye en ninguna de estas circunstancias,  pues los barros y la estatura son características propias del  desarrollo durante la adolescencia. Los pelos en la palma de la  mano nunca salen.",
+                    "qas": [
+                      {
+                        "patterns": "¿Es verdad que cuando una persona se masturba le salen  barros, pelos en la palma de la mano o no crece en estatura?",
+                        "answers": [
+                          {
+                            "text": "No, todas esas son ideas que se han difundido para crear  miedo hacia la masturbación y por lo tanto son falsas. La  masturbación no influye en ninguna de estas circunstancias,  pues los barros y la estatura son características propias del  desarrollo durante la adolescencia. Los pelos en la palma de la  mano nunca salen."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "The anal zone depends on the same embryological structures of the genital organs at the time of the formation of the fetus. This explains why men and women can have orgasms in anal sex. So that there is mutual enjoyment , the couple must be free of pressure, enjoy adequate foreplay and use a condom and lubricant.",
+                    "qas": [
+                      {
+                        "patterns": "Do people feel pleasure when they have anal sex?",
+                        "answers": [
+                          {
+                            "text": "The anal zone depends on the same embryological structures of the genital organs at the time of the formation of the fetus. This explains why men and women can have orgasms in anal sex. So that there is mutual enjoyment , the couple must be free of pressure, enjoy adequate foreplay and use a condom and lubricant."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "It is the contact of the lips with the orifice of the anus, generating sensations of excitement and pleasure in the couple. Some people do it within an erotic game, of sensuality, of knowledge of oneself and of the other." ,
+                    "qas": [
+                      {
+                        "patterns": "What is rimming?",
+                        "answers": [
+                          {
+                            "text": "It is the contact of the lips with the orifice of the anus, generating sensations of excitement and pleasure in the couple. Some people do it within an erotic game, of sensuality, of knowledge of oneself and of the other."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "The anus, vagina, and mouth are mucous membranes, tissues that are very sensitive to infection, disease, and/or injury. If the genitals of the person with whom you are having oral or anal intercourse are infected with some virus or bacteria will pass them on to your partner. The only way to prevent a Sexually Transmitted Infection is with the proper use of condoms in all sexual relations, be it vaginal, oral or anal.",
+                    "qas": [
+                      {
+                        "patterns": "Why can you also get a Sexually Transmitted Infection (STI) through anal and oral sex?",
+                        "answers": [
+                          {
+                            "text": "The anus, vagina, and mouth are mucous membranes, tissues that are very sensitive to infection, disease, and/or injury. If the genitals of the person with whom you are having oral or anal intercourse are infected with some virus or bacteria will pass them on to your partner. The only way to prevent a Sexually Transmitted Infection is with the proper use of condoms in all sexual relations, be it vaginal, oral or anal."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "Yes, that is a personal and couple's decision. If the person decides to practice them, it is advisable to always use a condom to prevent Sexually Transmitted Infections (STIs) including HIV/AIDS.",
+                    "qas": [
+                      {
+                        "patterns": "Can you have oral and anal sex?",
+                        "answers": [
+                          {
+                            "text": "Yes, that is a personal and couple's decision. If the person decides to practice them, it is advisable to always use a condom to prevent Sexually Transmitted Infections (STIs) including HIV/AIDS."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "It has nothing to do with sterility.",
+                    "qas": [
+                      {
+                        "patterns": "Does masturbation cause infertility?",
+                        "answers": [
+                          {
+                            "text": "It has nothing to do with sterility."
+                          }
+                        ]
+                      }
+                    ]
+                  },{
+                    "context": "Not true, Vaseline should never be applied to the genitals because it can lead to infections. If you want to use a substance to facilitate lubrication, it is recommended to use water-based lubricants that are made exclusively for sexual activities. ",
+                    "qas": [
+                      {
+                        "patterns": "Is it true that applying Vaseline to a man's penis prevents a woman from feeling pain during sexual intercourse?",
+                        "answers": [
+                          {
+                            "text": "Not true, Vaseline should never be applied to the genitals because it can cause infections. If you want to use a substance to facilitate lubrication, it is recommended to use water-based lubricants that are made exclusively for sexual activities. "
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                
+              
+            ]
+          }

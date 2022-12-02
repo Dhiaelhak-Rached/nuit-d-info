@@ -29,8 +29,8 @@
          "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
         },
         {"tag": "rental",
-         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
-         "responses": ["Are you looking to rent today or later this week?"],
+         "patterns": ["Is it true that drinking Coca Cola with Alka Seltzer before sexual intercourse prevents pregnancy?" ],
+         "responses": ["No, none of these substances have contraceptive effects to prevent pregnancy, therefore this idea is only part of people's imagination and some popular false beliefs. What really works is the proper use of methods modern contraceptives or abstention."],
          "context_set": "rentalday"
         },
         {"tag": "today",
