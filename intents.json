@@ -1,0 +1,13 @@
+{
+        "intents": [
+        
+              {  
+                "tag": "Sexuality Questions",
+             
+                    "patterns": "What are methods without scientific evidence or myths?",
+                    "responses": [ "They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based." ],
+                    "context_set": ["They are popular beliefs that people have with the conviction that they help them prevent a pregnancy, but they are not really effective or scientifically based."]
+
+              }
+            ]
+          }
